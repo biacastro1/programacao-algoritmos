@@ -1,0 +1,29 @@
+Index.html
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Document</title>
+	    <script src="scripts.js"></script>
+	</head>
+	<body>
+	    
+	</body>
+	</html>
+	
+
+	Scripts.js
+	//O custo ao consumidor de um carro novo, é a soma do custo de fábrica com a porcentagem do revendedor e com o custo dos impostos (aplicandos ao custo de fábrica). Supondo que a porcentagem do revendedor seja de 25% do custo de fábrica e que os impostos custam 45% do custo de fábrica, faça um algoritmo que leia o valor de custo de fábrica e determine o preço final do automóvel (custo do consumidor).//
+	
+
+	var fabrica= parseInt(prompt("Digite o custo de fábrica do automóvel"));
+	
+
+	var impostos= (fabrica * 45/100);
+	var vendedor= (fabrica * 25/100);
+	var final= (impostos + vendedor + fabrica);
+	
+
+	alert("O preço do automóvel somado aos impostos é: " + final);
